@@ -1,0 +1,250 @@
+/* ====NORMOLIZING STYLES=================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+  display: block;
+  border: none;
+}
+
+/* ====MAIN STYLES========================= */
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* ====HEADER============================= */
+
+.header {
+  color: #2e2f42;
+  border-bottom: 1px solid #e7e9fc;
+}
+.header a {
+  padding: 24px 0;
+}
+.header_container {
+  display: flex;
+  justify-content: space-between;
+}
+.header_navigation {
+  display: flex;
+  align-items: center;
+}
+.header_logo {
+  margin-right: 76px;
+}
+.header_navigation_list {
+  display: flex;
+  gap: 40px;
+}
+.header_logo_span {
+  color: #2e2f42;
+}
+.navigation_list_link {
+  font-weight: 500;
+}
+.header_address {
+  font-style: normal;
+}
+.header_address_list {
+  display: flex;
+  gap: 40px;
+}
+.address_list_link {
+  color: #434455;
+}
+.navigation_list_link:hover,
+.navigation_list_link:focus,
+.address_list_link:hover,
+.address_list_link:focus {
+  color: #404bbf;
+}
+
+/* ====1-HERO=============================== */
+.hero {
+  background: #2e2f42;
+  padding: 188px 0;
+  margin: 0 auto;
+}
+.hero_title {
+  margin: 0 auto;
+  max-width: 496px;
+  font-size: 56px;
+  line-height: 1.07;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.hero_button {
+  margin: 48px auto 0;
+  padding: 16px 32px;
+  min-width: 169px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  border-radius: 4px;
+}
+.hero_button:hover,
+.hero_button:focus {
+  background: #404bbf;
+}
+
+/* ====2-BENEFITS============================ */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.benefits_list {
+  display: flex;
+  gap: 24px;
+}
+
+.benefits_item_title {
+  margin-bottom: 8px;
+}
+
+.benefits_list_item {
+  max-width: 264px;
+}
+
+/*====3-TEAM================================  */
+.team {
+  background: #f4f4fd;
+}
+.team_title {
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+.team_list {
+  display: flex;
+  gap: 24px;
+}
+.team_list_item {
+  background: #ffffff;
+  width: calc((100%-72px) / 4);
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.team_item_container {
+  padding: 32px 0;
+  text-align: center;
+}
+.team_item_title {
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+/* ====4-PORTFOLIO=========================== */
+.portfolio_title {
+  line-height: 1.11;
+  margin-bottom: 72px;
+}
+.portfolio_list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio_item_container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: 0;
+}
+
+.portfolio_item_title {
+  margin-bottom: 8px;
+}
+
+/* ====FOOTER============================== */
+.footer {
+  background: #2e2f42;
+  color: #f4f4fd;
+  padding: 100px 0;
+}
+
+.footer_logo {
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.footer_logo_span {
+  color: #f4f4fd;
+}
+.footer_text {
+  width: 264px;
+}
