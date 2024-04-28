@@ -205,9 +205,20 @@ body {
   display: flex;
   gap: 24px;
 }
+.benefits_list_picture {
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  /* width: 264px;
+  height: 112px; */
+}
+.benefits_list_icon {
+  margin: 24px 100px;
+}
 
 .benefits_item_title {
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .benefits_list_item {
